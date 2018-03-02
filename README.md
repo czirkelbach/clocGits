@@ -1,8 +1,8 @@
 # clocGits
 A LOC counter for Github repositories
-employing cloc (https://github.com/AlDanial/cloc) with gitim (https://github.com/muhasturk/gitim).
+employing [cloc](https://github.com/AlDanial/cloc) and [gitim](https://github.com/muhasturk/gitim).
 
-Uses gitim to clone all repositories accessible by a user and or organization and calculates the overall LOC for all repositories.
+Uses gitim to clone all repositories accessible by a user and or organization and calculates the overall LOC for all cloned repositories.
 
 #### Requirements
 - Git
@@ -11,3 +11,6 @@ Uses gitim to clone all repositories accessible by a user and or organization an
 
 ##### Installation
 - ./setup.sh
+
+##### Usage
+./clocGits DOWNLOADFOLDERNAME USERNAME [ORGANIZATIONNAME]
