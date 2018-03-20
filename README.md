@@ -17,4 +17,4 @@ Uses gitim to clone all repositories accessible by a user (or limits it to a spe
 
 - `DOWNLOADFOLDERNAME`: the subfolder into the repositories are cloned 
 - `USERNAME`: the Github username, a prompt asks for the password 
-- `[ORGANIZATIONNAME]`: optional, limits the cloded repositories to the specified organization
+- `[ORGANIZATIONNAME]`: optional, limits the cloned repositories to the specified organization
